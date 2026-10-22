@@ -1,0 +1,1 @@
+var e=`perlamutr-choice`;function t(){try{let t=JSON.parse(localStorage.getItem(e)??`[]`);return Array.isArray(t)?t:[]}catch{return[]}}function n(t){try{localStorage.setItem(e,JSON.stringify(t))}catch{}}export{n,t};
