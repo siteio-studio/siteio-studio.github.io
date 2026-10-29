@@ -1,0 +1,37 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Товар — Дом обуви</title><link rel="stylesheet" href="style.css"></head><body data-page="product"><svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="s-boot" viewBox="0 0 96 64"><path d="M58 6 L80 6 C80 18 81 30 83 40 C85 46 88 48 88 52 L88 54 L12 54 C8 54 7 50 10 47 C14 43 24 42 34 40 C44 38 52 34 56 28 C57 20 58 12 58 6 Z"/><path d="M10 54 L10 57 Q10 59 13 59 L72 59"/><path d="M72 54 L72 60 L88 60 L88 54"/><path d="M62 8 C63 16 64 23 67 29 C71 25 74 18 76 8"/></symbol><symbol id="s-ortho" viewBox="0 0 96 64"><path d="M10 34 C10 22 20 15 34 17 C46 19 54 23 68 21 C81 19 90 25 90 34 C90 43 81 48 68 46 C55 44 47 47 34 49 C20 51 10 46 10 34 Z"/><path d="M24 34 C34 28 46 30 54 33"/><path d="M14 58 C30 58 36 52 48 52 C60 52 66 58 86 58"/></symbol></svg>
+<div class="demo">Набросок сайта для магазина «Дом обуви» от студии siteme. Товары, фото (Unsplash) и цены — для примера, заказы никуда не отправляются.</div>
+<header><div class="bar">
+<button type="button" class="burger" data-burger aria-label="Меню"><svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+<a class="logo" href="index.html">Дом обуви<small>Смоленск · с 10 до 20</small></a>
+<nav><a href="katalog.html?cat=zhenskaya" data-cat="zhenskaya">Женщинам</a><a href="katalog.html?cat=muzhskaya" data-cat="muzhskaya">Мужчинам</a><a href="katalog.html?cat=detskaya" data-cat="detskaya">Детям</a><a href="katalog.html?cat=ortopediya" data-cat="ortopediya">Ортопедия</a><a href="katalog.html?cat=sumki" data-cat="sumki">Сумки</a><a href="info.html#dostavka" data-cat="">Доставка и оплата</a></nav>
+<div class="tools"><button type="button" class="ico" data-search aria-label="Поиск"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button>
+<a class="txt" href="info.html#kontakty">Магазин на Тенишевой, 4</a>
+<a class="ico" href="katalog.html?fav=1" aria-label="Избранное"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><b data-fav-count hidden></b></a>
+<a class="ico" href="korzina.html" aria-label="Корзина"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.2 12H6.2z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><b data-cart-count hidden></b></a></div>
+</div>
+<form class="search" action="katalog.html"><input id="q" name="q" type="search" placeholder="Что ищете? Например, челси или сумка" autocomplete="off"><button class="btn dark" type="submit">Найти</button></form>
+</header>
+<div class="mnav"><a href="katalog.html?cat=zhenskaya" data-cat="zhenskaya">Женщинам</a><a href="katalog.html?cat=muzhskaya" data-cat="muzhskaya">Мужчинам</a><a href="katalog.html?cat=detskaya" data-cat="detskaya">Детям</a><a href="katalog.html?cat=ortopediya" data-cat="ortopediya">Ортопедия</a><a href="katalog.html?cat=sumki" data-cat="sumki">Сумки</a><a href="info.html#dostavka" data-cat="">Доставка и оплата</a><a href="info.html#kontakty">Магазин на Тенишевой, 4</a></div>
+
+<div class="wrap"><div class="crumbs" id="crumbs"></div>
+<div class="pp"><div class="pp-photo" id="pp-photo"></div>
+<div class="pp-info"><span class="tag" id="pp-tag" hidden></span><h1 id="pp-name"></h1><div class="pp-price" id="pp-price"></div>
+<div class="pp-label">Цвет: <span id="pp-color"></span></div><div class="pp-colors" id="pp-colors"></div>
+<div id="pp-sizes-wrap"><div class="pp-label">Размер <a href="info.html#razmer">Как подобрать размер</a></div><div class="pp-sizes" id="pp-sizes"></div><p class="err" id="size-err" hidden>Выберите размер</p></div>
+<div class="pp-buy"><button type="button" class="btn dark" id="pp-add">Добавить в корзину</button><button type="button" class="btn fav-btn" id="pp-fav" aria-label="В избранное"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>
+<p class="pp-stock" id="pp-stock"></p>
+<details open><summary>Описание</summary><p id="pp-desc"></p></details>
+<details><summary>Материалы и уход</summary><p id="pp-mat"></p></details>
+<details><summary>Доставка и оплата</summary><p>Самовывоз из магазина на Тенишевой, 4 — бесплатно, с примеркой. Курьер по Смоленску — 300 ₽, от 10 000 ₽ бесплатно. Пункт выдачи по России — 390 ₽. Оплата картой на сайте или при получении.</p></details>
+</div></div>
+<div class="sec"><div class="head"><h2>Похожие модели</h2></div><div class="grid" id="similar"></div></div></div>
+
+<footer><div class="cols">
+<div><b>Дом обуви</b><p>Магазин обуви у Площади Победы.<br>ул. Тенишевой, 4, Смоленск<br>Каждый день 10:00–20:00<br>+7 (000) 000-00-00</p></div>
+<div><b>Покупателям</b><a href="info.html#dostavka">Доставка и оплата</a><a href="info.html#vozvrat">Обмен и возврат</a><a href="info.html#razmer">Как подобрать размер</a></div>
+<div><b>Каталог</b><a href="katalog.html?cat=zhenskaya">Женская обувь</a><a href="katalog.html?cat=muzhskaya">Мужская обувь</a><a href="katalog.html?cat=detskaya">Детская обувь</a><a href="katalog.html?cat=sumki">Сумки</a></div>
+<div><b>Магазин</b><a href="info.html#o-magazine">О магазине</a><a href="info.html#kontakty">Контакты</a><a href="info.html#privacy">Политика конфиденциальности</a></div>
+</div><div class="low"><span>© Дом обуви, 2026</span><span>Сайт — студия siteme</span></div></footer>
+<script src="products.js"></script><script src="app.js"></script>
+</body></html>
