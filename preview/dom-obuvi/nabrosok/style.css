@@ -103,3 +103,7 @@ footer .low{border-top:1px solid #333;max-width:1440px;margin:0 auto;padding:18p
   .cat-top h1{font-size:28px}.cat-top{padding-bottom:16px}
   .sort{display:none}
 }
+
+.split .pic.photo{padding:0;overflow:hidden;background:var(--tile)}
+.split .pic.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.card .img img{width:100%;height:100%;object-fit:cover;display:block}
