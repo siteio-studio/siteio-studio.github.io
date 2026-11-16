@@ -1,0 +1,1 @@
+{"pickup":true,"zones":[{"id":"near","name":"До 2 км от кофейни","price":150},{"id":"center","name":"В пределах Садового кольца","price":350}],"freeFrom":2500,"minOrder":700,"russia":{"price":400}}
